@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fontel: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: font-family: 'Passion One', cursive;
+    --fonte3:'Passion One', cursive;
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +19,8 @@
  html, body {
         background-color: darkgray;
         min-height: 100vh;
+        font-family: var(--fontel);
+       
 }
 
 header {
@@ -20,6 +33,8 @@ header > h1 {
     padding-top: 50px;
    /* text-transform: uppercase;* fonte gritante*/
    font-variant: small-caps;
+   font-family: var(--fonte2);
+   font-size: 3vw;
    
 }
 header > p {
@@ -40,6 +55,7 @@ header a:hover , footer a:hover {
 section.normal {
     background-color: white;
     color: black;
+    font-family: var(--fonte3);
 }
 
 /*corpo*/
@@ -49,6 +65,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2vw;
 }
 
 section.imagem {
@@ -57,7 +75,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.308);
 }
 
