@@ -52,13 +52,14 @@ header a:hover , footer a:hover {
     text-decoration: underline;
 }
 
+
+/*corpo*/
+
 section.normal {
     background-color: white;
     color: black;
     font-family: var(--fonte3);
 }
-
-/*corpo*/
 
 section {
     padding-top: 10vh;
@@ -72,12 +73,28 @@ section {
 section.imagem {
     background-color: rgb(58, 58, 58);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.308);
+    text-shadow: 2px 2px 0px black;
+    
+}
+
+section#img001 {
+    background-image: url("../pacote-d012/imagens/background001.jpg");
+    background-position: right center;
+    
+}
+
+section#img002 {
+    background-image: url("../pacote-d012/imagens/background002.jpg");
+    
 }
 
 
