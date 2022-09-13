@@ -87,13 +87,14 @@ section.imagem > p {
 }
 
 section#img001 {
-    background-image: url("../pacote-d012/imagens/background001.jpg");
+    background-image: url("imagens/background001.jpg");
     background-position: right center;
     
 }
 
 section#img002 {
-    background-image: url("../pacote-d012/imagens/background002.jpg");
+    background-image: url("");
+    /*as*/
     
 }
 
