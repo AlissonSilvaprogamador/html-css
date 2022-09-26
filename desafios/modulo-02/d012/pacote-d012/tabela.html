@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Amostra</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            background-color: rgb(150, 245, 245);
+            
+            
+            
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+              
+        }
+
+        tr.cabeca {
+            font-weight: bolder;
+            
+            
+            
+        }
+
+        td.cabeca{
+          font-weight: bolder; 
+          
+        }
+
+        tr:nth-child(2n) {
+            background-color: azure;
+        }
+
+    </style>
+</head>
+<body>
+
+<table>
+    
+    <tr class="cabeca">
+        <td>Grupos</td>
+        <td>Nomes</td>
+        <td colspan="3">Filmes</td>
+           
+    </tr>
+
+    <tr>
+        <td rowspan="3" class="cabeca">Mulherers</td> 
+        <td>Angela</td>
+        <td>Pantera Negra</td>
+        <td>Vingadores</td>
+        <td>Toy Story 4</td>
+           
+    </tr>
+
+    <tr>
+        <td>Maria</td>
+        <td>Os Bons Companheiros</td>
+        <td> Um Estranho no Ninho</td>
+        <td>O Senhor dos Anéis: As Duas Torres</td>
+    </tr>
+
+    <tr>
+        <td>Antonia</td>
+        <td>A Origem</td>
+        <td>Forrest Gump: O Contador de Histórias</td>
+        <td>O Império Contra-Ataca</td>
+    </tr>
+
+    <tr>
+         <td rowspan="3" class="cabeca">Homens</td>
+        <td>Alex</td>
+        <td>Um Sonho de Liberdade</td>
+        <td>O Poderoso Chefão</td>
+        <td>Batman: O Cavaleiro das Trevas</td>
+    </tr>
+    
+
+    <tr> 
+        <td>José</td>
+        <td>Clube da Luta(</td>
+        <td>Três Homens em Conflito</td>
+        <td>O Senhor dos Anéis: O Retorno do Rei</td>
+    </tr>
+
+    <tr> <td>Mario</td>
+        <td>A Lista de Schindler</td>
+        <td> 12 Homens e uma Sentença</td>
+        <td>Pulp Fiction: Tempo de Violênci</td>
+    </tr>
+</table>
+    
+</body>
+</html>
